@@ -1,0 +1,42 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText android:id="@+id/edtATM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:editable="false"/>
+    <TableRow>
+        <Button android:text="1" android:id="@+id/btnN1" />
+        <Button android:text="2" android:id="@+id/btnN2" />
+        <Button android:text="3" android:id="@+id/btnN3" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="4" android:id="@+id/btnN4" />
+        <Button android:text="5" android:id="@+id/btnN5" />
+        <Button android:text="6" android:id="@+id/btnN6" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="7" android:id="@+id/btnN7" />
+        <Button android:text="8" android:id="@+id/btnN8" />
+        <Button android:text="9" android:id="@+id/btnN9" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="清除" android:id="@+id/btnBack" />
+        <Button android:text="0" android:id="@+id/btnN0" />
+        <Button android:text="確定" android:id="@+id/btnOK" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="結束" android:id="@+id/btnEnd" />
+    </TableRow>
+
+</TableLayout>
